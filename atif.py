@@ -1,5 +1,5 @@
 #coding=utf
-#DECODE BY ASAD ALI
+#DECODE BY MALIK ATIF
 import os,sys,time,json,random,re,string,platform,base64
 try:
     import requests
@@ -8,7 +8,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python ali.py')
+    os.system('python atif.py')
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
 H = '\x1b[1;92m' # HIJAU
@@ -40,10 +40,10 @@ logo =  """
        ##     ##  ######  ##     ## ########  
 
 ══════════════════════════════════════════════════
-  Author       : Asad Ali
-  Brother      : Kami
+  Author       : Malik Atif
+  Brother      : Adii
   TOOLS STATUS : free
-  Youtube      : Pro
+  Youtube      : Important Notes
 ══════════════════════════════════════════════════"""
 loop = 0
 oks = []
@@ -66,7 +66,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 
-def asad():
+def atif():
     os.system('clear')
     print(logo)
     print('[1] Random crack')
@@ -201,4 +201,4 @@ def rcrack(uid,pwx,tl):
     except:
         pass
 
-asad()
+atif()
